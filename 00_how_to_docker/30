@@ -1,0 +1,6 @@
+docker service scale -d marines=20
+
+
+# --detach , -d  - Exit immediately instead of waiting for the service to converge
+
+# If you want t

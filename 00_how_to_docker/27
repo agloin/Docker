@@ -1,0 +1,7 @@
+
+docker service logs -f $(docker service ls engineering-bay -f "name=engineering-bay.1" -q)
+
+
+# The name filter matches on task names.
+
+# $ docker service ps -f "name=redis.1" redis

@@ -1,0 +1,3 @@
+# to start or to stop a docker container you have to:
+
+docker container start/stop/restart spawning-pool
